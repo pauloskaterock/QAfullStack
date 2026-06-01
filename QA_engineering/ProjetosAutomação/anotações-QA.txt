@@ -1,0 +1,22 @@
+anotaçoes  QA ENGINEERING 
+iniciando um projeto Gemfile 
+-no CMDER digitar o comando bundle install 
+gem "capybara","3.31.0"
+gem "rspec","3.9.0"
+gem  "selenium-webdriver","3.142.7"
+gem "ffi","1.12.2"
+
+dar o comando bundle install para instalar as dependencias.
+dar o comando rspec --init para iniciar um projetos de testes.(na estrutura tera uma pasta RSPEC com o arquivo de configuração spec_helper.rb (os projetos devem ser criados na poasta rspec)
+configurar o CAPYBARA (configuração no SPEC_HELPER.RB) 
+require "capybara"
+require "capybara/rspec"
+require "selenium-webdriver"
+
+
+Capybara.configure do |config|
+  config.default_driver = :selenium_chrome
+  config.default_max_wait_time = 5
+end
+
+

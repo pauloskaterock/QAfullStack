@@ -1,0 +1,16 @@
+
+As gems utilizadas no projeto são:
+    gem "capybara"
+    gem "cucumber"
+    gem "ffi"
+    gem "selenium-webdriver"
+    gem "rspec"
+    gem "rufo"
+
+As gems podem ser encontradas em:
+
+    source "https://rubygems.org" 
+
+Para execução dos testes foi utilizado o cmder  
+
+Como IDE foi utilizado o visual studio

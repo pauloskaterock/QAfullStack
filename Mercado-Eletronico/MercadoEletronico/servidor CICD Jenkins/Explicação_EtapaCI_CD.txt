@@ -1,0 +1,12 @@
+Referente a parte onde foi pedido:
+
+Incluir na arquitetura do projeto soluções para integração da automação
+num servidor CI/CD (Jenkins, Gitlab CI, TeamCity e etc...)
+
+Eu anexei alguns screenshots da minha tentativa de integração docker/jenkins.
+Mas tive problemas pois meu notebook não esta em boas condições
+e como utilizo o docker tool box  com (JVM) não consegui realizar esta etapa
+mas anexei um dos meus certificados do curso para demonstrar que tenho um conhecimento.
+Tambem anexei algumas tentativas de realizar tal etapa do processo.
+obs: tentei utilizar o mesmo dockerConteiner do curso que eu fiz.
+

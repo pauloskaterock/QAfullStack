@@ -1,0 +1,40 @@
+gem  "capybara", "3.31.0"
+gem  "rspec", "3.9.0"
+gem  "selenium-webdriver", "4.0.1 "
+gem  "ffi" ,"1.12.2"
+
+Bundle install => for installing the gems
+
+
+
+commands
+    bundle init
+    rspec --init
+
+to run the tests
+    rspec => run all scenarios
+    rspec --fd --tag @tag => with the @tag run the scenarios separately
+
+
+
+to run the tests headless
+    config.default_driver = :selenium_chrome_headless
+
+
+
+to have the results in html format
+    --format html --out=report.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+The tests were run through the console emulator
